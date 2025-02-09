@@ -15,7 +15,7 @@
         } 
     
         if ($resultUpdate === true){
-            header("refresh:10; url=../Folder.php");
+            header("refresh:0; url=../Folder.php");
             echo "<script>alert('Data is successfully saved.')</script>";
         } else{
             header("refresh:0; url=../Folder.php");
