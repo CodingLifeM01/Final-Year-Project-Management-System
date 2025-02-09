@@ -1,0 +1,112 @@
+#name{
+    margin-left: 5px;
+}
+
+#document_detail_1{
+    display: flex;
+    margin: 20px 0px 0px -10px;
+}
+
+#document_text_details{
+    width: 100%;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: space-between;
+}
+
+#document_text_details p{
+    font-size: 1.1em;
+}
+
+#hr{
+    background-color: black;
+    width: 100%;
+    height: 1px;
+    margin: 20px 0px;
+}
+
+#title{
+    display: flex;
+    justify-content: space-between;
+}
+
+#function_btn{
+    display: flex;
+}
+
+#add, #modify{
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    cursor: pointer;
+}
+
+#add{
+    margin: -10px 10px 0px 0px;
+}
+
+#modify{
+    margin: -8px 30px 4px 0px;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+}
+
+#delete{
+    cursor: pointer;
+    width: 80px;
+    margin-left: 30px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    padding: 8px 15px;
+}
+
+#save{
+    cursor: pointer;
+    width: 80px;
+    background-color: rgb(0, 136, 255);
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    padding: 8px 15px;
+}
+
+table{
+    width: 100%;
+    margin: 30px 0px;
+    border-collapse: separate; /* Use separate border model */
+    border-spacing: 30px 0px; /* Add space between columns */
+}
+
+th{
+    border: 1px solid black;
+    padding: 2px;
+}
+
+td{
+    padding: 15px 0px;
+}
+
+td:nth-child(1){
+    width: 10%;
+}
+
+td:nth-child(3){
+    width: 30%;
+}
+
+td:nth-child(5){
+    width: 55%;
+}
+
+td:nth-child(6){
+    width: 5%;
+}
+
+td:nth-child(1){
+    text-align: center;
+}

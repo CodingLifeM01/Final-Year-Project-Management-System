@@ -1,0 +1,55 @@
+#container {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+form{
+    width: 50%;
+    margin: 30px auto;
+}
+
+fieldset{
+    width: 100%;
+    padding: 15px;
+}
+
+select{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+
+#empty{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#empty img{
+    margin-top: 70px;
+    opacity: 0.4;
+}
+
+#empty p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+
+button{
+    border: 1px solid rgb(0, 0, 0, 0.4);
+    border-radius: 15px;
+    background-color: aquamarine;
+    width: fit-content;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 0.95em;
+    cursor: pointer;
+}
+
+#register_btn{
+    text-align: center;
+}

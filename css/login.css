@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    margin-top: -20px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#Logo{
+    margin: 20px;
+}
+
+#role_pic_container{
+    display: flex;
+    gap: 100px;
+    width: fit-content;
+    margin: auto;
+}
+
+button{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(0, 0, 0, 0);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+#btn_1{
+    background-color: aqua;
+}
+
+#btn_2{
+    background-color: aquamarine;
+}
+
+#btn_3{
+    background-color: plum;
+}
+
+#role_pic p{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bolder;
+    margin-top: 20px;
+}

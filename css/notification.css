@@ -1,0 +1,33 @@
+#notification_header p{
+    margin: auto 0px;
+}
+
+#notification_container{
+    margin: 30px 0px;
+}
+
+#notification_container div{
+    margin: 0px 0px;
+}
+
+#notification_header{
+    display: flex;
+}
+
+#notification_container div{
+    background-color: #FCFFDC;
+    padding: 5px 0px 10px 5px;
+}
+
+#notification_header p, #notification_content{
+    margin-left: 10px;
+}
+
+#notification_content{
+    border: 1px solid black;
+    margin-right: 15px;
+}
+
+#notification_content p{
+    padding: 10px;
+}

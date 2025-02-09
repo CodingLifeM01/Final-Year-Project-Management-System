@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Page</title>
+        <link rel="stylesheet" href="css/login.css">
+    </head>
+
+    <body>
+        <div id="Logo">
+            <img src="Gallery/NU_Logo.png" alt="" width="200px">
+        </div>
+        
+        <main>
+            <header>
+                <h1>
+                    Welcome To Nilai University <br> Final Year Project Management System!
+                </h1>
+
+                <h1>
+                    Login with your role:
+                </h1>
+            </header>
+            
+            <div id="role_pic_container">
+                <form action="Login_2.php" method="post">
+                    <div id="role_pic">
+                        <input name="role" type="hidden" value="student">
+                        <button id="btn_1"><img src="Gallery/Student_Icon.png" alt="" style="width: 150px; margin: 8px 0px 0px 4px;"></button>
+                        <p>Student</p>
+                    </div>
+                </form>
+
+                <form action="Login_2.php" method="post">
+                    <div id="role_pic">
+                        <input name="role" type="hidden" value="supervisor">
+                        <button id="btn_2"><img src="Gallery/Supervisor_Icon.png" alt="" style="width: 140px; margin: 0px 0px 0px 0px;"></button>
+                        <p>Supervisor</p>
+                    </div>
+                </form>
+
+                <form action="Login_2.php" method="post">
+                    <div id="role_pic">
+                        <input name="role" type="hidden" value="coordinator">
+                        <button id="btn_3"><img src="Gallery/Coordinator_Icon.png" alt="" style="width: 150px; margin: 0px 0px 0px 0px;"></button>
+                        <p style="margin-left: 7px;">Coordinator</p>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

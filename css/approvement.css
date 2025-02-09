@@ -1,0 +1,63 @@
+
+#container {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+#empty{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#empty img{
+    margin-top: 70px;
+    opacity: 0.4;
+}
+
+#empty p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+form{
+    width: 50%;
+    margin: 30px auto;
+}
+
+fieldset{
+    width: 100%;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+fieldset p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    border: 1px solid rgb(0, 0, 0, 0.4);
+    border-radius: 15px;
+    width: fit-content;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 0.95em;
+    cursor: pointer;
+}
+
+#btn{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#approve{
+    background-color: rgb(91, 230, 255);
+}
+
+#refuse{
+    background-color: rgb(254, 105, 105);
+    margin-left: 30px;
+}
