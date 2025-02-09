@@ -11,10 +11,10 @@
 
     // Check user is exist or not
     if(mysqli_num_rows($result) == 0){
-        header("refresh:0; url=/Login_2.php");
+        header("refresh:0; url=../Login_2.php");
 		echo "<script>alert('Your Account ID or Password is incorrect. Please enter again.')</script>";
     } else{
-        header("refresh:0; url=/Profile.php");
+        header("refresh:0; url=../Profile.php");
         echo "<script>alert('You have successfully login!')</script>";
     }
 

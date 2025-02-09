@@ -22,10 +22,10 @@
             $result_delete = mysqli_query($conn, $sql_delete);
 
             if ($result === true && $result_supervisor === true && $result_delete === true){
-                header("refresh:0; url=/Approvement.php");
+                header("refresh:0; url=../Approvement.php");
                 echo "<script>alert('The registration request has been sucessfully approved.')</script>";
             } else{
-                header("refresh:0; url=/Approvement.php");
+                header("refresh:0; url=../Approvement.php");
                 echo "<script>alert('The registration request has been failed to approved.')</script>";
             }
         } else {
@@ -33,15 +33,15 @@
             $result_delete = mysqli_query($conn, $sql_delete);
     
             if ($result_delete === true){
-                header("refresh:0; url=/Approvement.php");
+                header("refresh:0; url=../Approvement.php");
                 echo "<script>alert('You have reject a registration request.')</script>";
             } else{
-                header("refresh:0; url=/Approvement.php");
+                header("refresh:0; url=../Approvement.php");
                 echo "<script>alert('You have failed to reject a registration request.')</script>";
             }
         }
     } else{
-        header("refresh:0; url=/Profile.php");
+        header("refresh:0; url=../Profile.php");
         echo "<script>alert('You are not a coordinator. You are denied to access this page')</script>";
     }
 

@@ -12,10 +12,10 @@
     $result = mysqli_query($conn, $sql);
 
     if ($result === true){
-        header("refresh:0; url=/Project_Title_Registration.php");
+        header("refresh:0; url=../Project_Title_Registration.php");
         echo "<script>alert('You have successfully register the title! Please wait for the approvement.')</script>";
     } else{
-        header("refresh:0; url=/Project_Title_Registration.php");
+        header("refresh:0; url=../Project_Title_Registration.php");
         echo "<script>alert('You have failed to register the title. Something is going wrong.')</script>";
     }
 ?>

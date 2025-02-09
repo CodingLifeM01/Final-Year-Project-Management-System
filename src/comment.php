@@ -15,22 +15,22 @@
 
         if ($result_upload === true){
             if ($role == "Student"){
-                header("refresh:0; url=/Folder.php");
+                header("refresh:0; url=../Folder.php");
             } else{
-                header("refresh:0; url=/Search.php");
+                header("refresh:0; url=../Search.php");
             }
             
             echo "<script>alert('Comment is successfully uploaded.')</script>";
         } else{
             if ($role == "Student"){
-                header("refresh:0; url=/Folder.php");
+                header("refresh:0; url=../Folder.php");
             } else{
-                header("refresh:0; url=/Search.php");
+                header("refresh:0; url=../Search.php");
             }
             echo "<script>alert('Comment is failed to upload.')</script>";
         }
     } else {
-        header("refresh:0; url=/Folder.php");
+        header("refresh:0; url=../Folder.php");
     }
 
 ?>

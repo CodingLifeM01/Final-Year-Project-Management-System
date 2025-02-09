@@ -14,14 +14,14 @@
         $resultModify = mysqli_query($conn, $sqlModify);
 
         if ($resultModify === true){
-            header("refresh:0; url=/Profile.php");
+            header("refresh:0; url=../Profile.php");
             echo "<script>alert('Data was successfully updated.')</script>";
         } else{
-            header("refresh:0; url=/Folder.php");
+            header("refresh:0; url=../Folder.php");
             echo "<script>alert('Data was updated failed. Please check your value is valid or not.')</script>";
         }
     } else{
-        header("refresh:0; url=/Profile.php");
+        header("refresh:0; url=../Profile.php");
     }
 
 ?>

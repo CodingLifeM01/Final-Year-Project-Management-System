@@ -15,10 +15,10 @@
         } 
     
         if ($resultUpdate === true){
-            header("refresh:10; url=/Folder.php");
+            header("refresh:10; url=../Folder.php");
             echo "<script>alert('Data is successfully saved.')</script>";
         } else{
-            header("refresh:0; url=/Folder.php");
+            header("refresh:0; url=../Folder.php");
             echo "<script>alert('Data is unsuccessfully saved. Please check your value is valid or not.')</script>";
         }
     
@@ -29,14 +29,14 @@
         $resultDelete = mysqli_query($conn, $sqlDelete);
 
         if ($resultDelete === true){
-            header("refresh:0; url=/Folder.php");
+            header("refresh:0; url=../Folder.php");
             echo "<script>alert('Data is successfully deleted.')</script>";
         } else{
-            header("refresh:0; url=/Folder.php");
+            header("refresh:0; url=../Folder.php");
             echo "<script>alert('Data is unsuccessfully deleted. Something is go wrong.')</script>";
         }
     } else{
-        header("refresh:0; url=/Folder.php");
+        header("refresh:0; url=../Folder.php");
     }
 
 ?>
